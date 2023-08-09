@@ -1,0 +1,33 @@
+{
+  "name": "wdio-work-demo",
+  "version": "1.0.0",
+  "description": "Working with WDIO 8 - Framework from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zac11/wdio-work-demo.git"
+  },
+  "keywords": [
+    "WDIO",
+    "Framework",
+    "TS"
+  ],
+  "author": "RY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zac11/wdio-work-demo/issues"
+  },
+  "homepage": "https://github.com/zac11/wdio-work-demo#readme",
+  "devDependencies": {
+    "@wdio/cli": "^8.14.4",
+    "@wdio/local-runner": "^8.14.3",
+    "@wdio/mocha-framework": "^8.14.0",
+    "@wdio/spec-reporter": "^8.14.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
