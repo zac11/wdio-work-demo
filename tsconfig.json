@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
-        "moduleResolution": "node",
-        "module": "commonjs",
+        "moduleResolution": "node16",
+        "module": "node16",
         "target": "es2022",
         "types": [
             "node",
